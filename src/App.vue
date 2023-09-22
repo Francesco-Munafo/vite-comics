@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue'
 import AppJumbo from './components/AppJumbo.vue'
 import AppServices from './components/AppServices.vue'
 import AppFooterTop from './components/AppFooterTop.vue'
+import AppFooterBottom from './components/AppFooterBottom.vue'
 export default {
   data() {
 
@@ -14,7 +15,8 @@ export default {
     AppHeader,
     AppJumbo,
     AppServices,
-    AppFooterTop
+    AppFooterTop,
+    AppFooterBottom
   }
 }
 
@@ -33,6 +35,7 @@ export default {
   </main>
 
   <AppFooterTop></AppFooterTop>
+  <AppFooterBottom></AppFooterBottom>
 
 </template>
 

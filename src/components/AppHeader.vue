@@ -8,13 +8,13 @@ export default {
 
 <template>
     <header id="app_header">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg p-0">
             <div class="container d-flex justify-content-between">
                 <img src="../assets/img/dc-logo.png" alt="" srcset="">
-                <div class="navbar" id="navbarNav">
+                <div class="navbar p-0" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link nav_menu py-5" aria-current="page" href="#">CHARACTERS</a>
+                            <a class="nav-link cm_active py-5" aria-current="page" href="#">CHARACTERS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav_menu py-5" href="#">COMICS</a>

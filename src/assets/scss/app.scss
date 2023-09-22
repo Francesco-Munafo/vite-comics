@@ -12,7 +12,7 @@ body{
 
 .cm_active{
   color: $comics_primary;
-  border-bottom: 2px solid $comics_primary;
+  border-bottom: 4px solid $comics_primary;
 }
 
 .nav_menu{
@@ -61,4 +61,18 @@ body{
   transform: translateY(-25%);
 }
 
+#footer_bottom{
+  background-color: $comics_dark;
+}
+
+#footer_bottom img{
+  height: 35px;
+  aspect-ratio: 1 / 1;
+  margin-right: 0.5rem;
+  
+}
+
+#footer_bottom h3{
+  color: $comics_primary;
+}
 
