@@ -19,3 +19,46 @@ body{
   color: $comics_darker;
   font-weight: 500;
 }
+
+.jumbo_bg{
+  background-color: $comics_darker;
+  color: $comics_white;
+  padding: 6rem 0;
+  margin-bottom: 0;
+}
+
+#services{
+  background-color: $comics_primary;
+}
+
+.service > a > img{
+  height: 60px;
+  padding-right: 1rem;
+}
+
+.service{
+  color: $comics_white;
+  padding: 3rem 0;
+}
+
+#app_footer{
+  background-image: url(/src/assets/img/footer-bg.jpg);
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+#app_footer h3{
+  color: $comics_white;
+}
+
+#app_footer a{
+  color: $comics_light_dark;
+  text-decoration: none;
+}
+
+.footer_logo{
+  top: 0;
+  transform: translateY(-25%);
+}
+
+

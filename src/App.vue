@@ -1,5 +1,8 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
+import AppJumbo from './components/AppJumbo.vue'
+import AppServices from './components/AppServices.vue'
+import AppFooterTop from './components/AppFooterTop.vue'
 export default {
   data() {
 
@@ -8,7 +11,10 @@ export default {
     }
   },
   components: {
-    AppHeader
+    AppHeader,
+    AppJumbo,
+    AppServices,
+    AppFooterTop
   }
 }
 
@@ -18,11 +24,15 @@ export default {
 
   <AppHeader></AppHeader>
 
-  <main id="app_main">
-    
+  <main id="app_main" class="position-relative z-3">
 
-    
+     <AppJumbo></AppJumbo>
+
+  <AppServices></AppServices>
+
   </main>
+
+  <AppFooterTop></AppFooterTop>
 
 </template>
 
