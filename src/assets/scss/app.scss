@@ -1,1 +1,21 @@
-@use '../../node_modules/bootstrap/scss/bootstrap.scss'
+@use '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* Variables */
+@use './partials/variables' as *;
+
+
+
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.cm_active{
+  color: $comics_primary;
+  border-bottom: 2px solid $comics_primary;
+}
+
+.nav_menu{
+  color: $comics_darker;
+  font-weight: 500;
+}
