@@ -1,34 +1,62 @@
 <script>
 export default {
 
-name: 'AppServices'
+    name: 'AppServices',
+
+    data() {
+        return {
+
+            services: [
+                {
+                    pic: 'src/assets/img/buy-comics-digital-comics.png',
+                    name: 'DIGITAL COMICS',
+                    link: ''
+
+                },
+                {
+                    pic: 'src/assets/img/buy-comics-merchandise.png',
+                    name: 'DC MERCHANDISE',
+                    link: ''
+
+                },
+                {
+                    pic: 'src/assets/img/buy-comics-subscriptions.png',
+                    name: 'SUBSCRIPTIONS',
+                    link: ''
+
+                },
+                {
+                    pic: 'src/assets/img/buy-comics-shop-locator.png',
+                    name: 'COMIC SHOP LOCATOR',
+                    link: ''
+
+                },
+                {
+                    pic: 'src/assets/img/buy-dc-power-visa.svg',
+                    name: 'DC POWER VISA',
+                    link: ''
+
+                },
+
+            ]
+        }
+    }
 
 }
 </script>
 
 <template>
     <section id="services">
-        <div class="container d-flex justify-content-between">
-            <div class="service">
-                <a href="#"><img src="../assets/img/buy-comics-digital-comics.png" alt="" srcset=""></a>
-                <span>DIGITAL COMICS</span>
-            </div>
-            <div class="service">
-                <a href=""><img src="../assets/img/buy-comics-merchandise.png" alt="" srcset=""></a>
-                <span>DC MERCHANDISE</span>
-            </div>
-            <div class="service">
-                <a href=""><img src="../assets/img/buy-comics-subscriptions.png" alt="" srcset=""></a>
-                <span>SUBSCRIPTIONS</span>
-            </div>
-            <div class="service">
-                <a href=""><img src="../assets/img/buy-comics-shop-locator.png" alt="" srcset=""></a>
-                <span>COMIC SHOP LOCATOR</span>
-            </div>
-            <div class="service">
-                <a href=""><img src="../assets/img/buy-dc-power-visa.svg" alt="" srcset=""></a>
-                <span>DC POWER VISA</span>
-            </div>
+        <div class="container ">
+
+            <ul class="service d-flex justify-content-between mb-0 list-unstyled">
+                <li v-for="service in services">
+                    <a href="#" class="text-decoration-none"><img :src=service.pic alt={{service.name}} class="service_pic">
+                    <span class="service">{{service.name}}</span></a>
+                </li>
+            </ul>
+
+
         </div>
     </section>
 </template>
