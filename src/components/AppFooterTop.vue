@@ -1,7 +1,22 @@
 <script>
 
 export default {
+
     name: 'AppFooterTop',
+
+    /*data() {
+        return {
+            dcComics: [
+                {
+                    title: 'DC COMICS',
+                    links: {
+                        text: 'Characters',
+                        link: ''
+                    }
+                }
+            ]
+        }
+    }*/
 }
 </script>
 

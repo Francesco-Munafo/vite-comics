@@ -1,9 +1,9 @@
 <script>
-import AppHeader from './components/AppHeader.vue'
-import AppJumbo from './components/AppJumbo.vue'
-import AppServices from './components/AppServices.vue'
-import AppFooterTop from './components/AppFooterTop.vue'
-import AppFooterBottom from './components/AppFooterBottom.vue'
+import AppHeader from './components/AppHeader.vue';
+import AppJumbo from './components/AppJumbo.vue';
+import AppServices from './components/AppServices.vue';
+import AppFooterTop from './components/AppFooterTop.vue';
+import AppFooterBottom from './components/AppFooterBottom.vue';
 export default {
   data() {
 
