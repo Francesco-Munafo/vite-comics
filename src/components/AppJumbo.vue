@@ -7,10 +7,8 @@ export default {
 </script>
 
 <template>
-    <section class="jumbo_bg">
-        <div class="container">
-            <h2> ==&gt;Content goes here&lt;==</h2>
-        </div>
+    <section class="jumbo">
+        
     </section>
 </template>
 
