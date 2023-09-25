@@ -19,6 +19,7 @@ export default {
 
 <template>
     <section class="products_bg">
+        <h5 class="section_title">CURRENT SERIES</h5>
         <div class="container d-flex">
             <div class="d-flex flex-wrap">
                 <AppProduct v-for="product in products" 

@@ -23,7 +23,7 @@ body{
 .jumbo{
   background-image: url(/src/assets/img/jumbotron.jpg);
   background-size: cover;
-  height: 350px;
+  height: 400px;
 }
 
 .products_bg{
@@ -60,6 +60,10 @@ body{
 #app_footer a{
   color: $comics_light_dark;
   text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 .footer_logo{
@@ -82,10 +86,19 @@ body{
   color: $comics_primary;
 }
 
+.section_title{
+  background-color: $comics_primary;
+  padding: 0.75rem 1rem;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-top: -4rem;
+  position: relative;
+  left: 250px;
+  top: -71px;
+}
+
 .comic_img{
   width: calc(100% - 2rem);
-  
-  
 }
 
 .comic_img > img{
