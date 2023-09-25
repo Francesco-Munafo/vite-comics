@@ -72,7 +72,7 @@ export default {
             <div class="container d-flex justify-content-between">
                 <img src="../assets/img/dc-logo.png" alt="" srcset="">
                 <div class="navbar p-0" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav nav_menu">
                         <li v-for="(selection, index) in navSelections" class="nav-item">
                             <a class="nav-link py-5" :class= "index === activeLink ? 'cm_active' : '' " @click="activeClass(index)" aria-current="page" href="#">{{selection.name}}</a>
                         </li>
