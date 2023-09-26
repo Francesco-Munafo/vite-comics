@@ -29,7 +29,6 @@ body{
 .products_bg{
   background-color: $comics_darker;
   color: $comics_white;
-  padding: 4rem 0;
   margin-bottom: 0;
 }
 
@@ -90,11 +89,12 @@ body{
   background-color: $comics_primary;
   padding: 0.75rem 1rem;
   display: inline-block;
-  margin-left: 2rem;
-  margin-top: -4rem;
-  position: relative;
-  left: 250px;
-  top: -71px;
+  margin-left: 14rem;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  vertical-align: super;
+  
+  
 }
 
 .comic_img{
